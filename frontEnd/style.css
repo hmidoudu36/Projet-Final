@@ -6,8 +6,8 @@ html, body{
 /* Alignement des differents elements dans le header */
 
 header nav {
+    display: flex;
     background: #eee;
-    display : flex;
     align-items: center;
     justify-content: center;
 }
@@ -33,7 +33,7 @@ header nav img {
 }
 
 header nav .right-header {
-    /*display: inline;*/
+    display: inline-flex;
     text-decoration: none;
     color: rgba(0,0,0,0.8);
     font-size : 25px;
@@ -87,9 +87,9 @@ header nav .right-header .searchBox input {
     color: black;
   }
 
-  .close-btn{
+  /*.close-btn{
     position: absolute;
-    /*top: 21px;*/
+    /*top: 21px;
     right: auto;
     cursor: pointer;
     color: #fc913a;
