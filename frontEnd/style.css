@@ -13,7 +13,7 @@ header nav {
 }
 
 header nav .left-header {
-    display: flex;
+    display: inline;
     text-decoration: none;
     color: rgba(0,0,0,0.8);
     font-size : 25px;
@@ -33,12 +33,12 @@ header nav img {
 }
 
 header nav .right-header {
-    display: flex;
+    /*display: inline;*/
     text-decoration: none;
     color: rgba(0,0,0,0.8);
     font-size : 25px;
     font-family: -apple-system;
-    align-items: center;
+    align-items: right;
     justify-content: center;
 }
 
@@ -46,4 +46,59 @@ header nav .right-header * {
     margin: 10px 10px;
 }
 
+#logo > img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Style du bouton rechercher */
+
+/*header nav .right-header .searchBox {
+    margin: 0 0;
+}
+
+header nav .right-header .searchBox input {
+    border-radius: 6px;
+    height: 30px;
+    font-size: 15px;
+}*/
+
+.wrapper{
+    position: absolute;
+  }
+  
+  .search-contain{
+    position: relative;
+  }
+  
+  .input{
+    width: 100px;
+    border: 3px solid #fff;
+    background: transparent;
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .input:focus {
+    background : white;
+    color: black;
+  }
+
+  .close-btn{
+    position: absolute;
+    /*top: 21px;*/
+    right: auto;
+    cursor: pointer;
+    color: #fc913a;
+    background: #fff;
+    border: 0px;
+    width: 120px;
+    height: 55px;
+    border-radius: 50px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
