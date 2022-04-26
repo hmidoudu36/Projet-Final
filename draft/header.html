@@ -4,29 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="header.css">
     <title>Header</title>
 </head>
 <body>
     <header>
-        <ul class="left-header">
-            <li>Acceuil</li>
-            <li>Catalogue</li>
-            <li> <img src="../frontEnd/logo.png" style="max-width: 100px;"> </li>
-        </ul>
-        <ul class="logo-header">
-            <li>
-                <div class="searchBox">
-                    <input type="text" value="Rechercher..." name="search" id="search">
-                    <button class="submit_search">search</button>
-                </div>
-            </li>
-        </ul>
-        <ul class="right-header">
-            <li>Wishlist</li>
-            <li>Panier</li>
-            <li>Account</li>
-        </ul>
+        <div class="left-header"> 
+            <ul>
+                <li>Acceuil</li>
+                <li>Categories</li>
+            </ul> 
+        </div> 
+        <div class="logo-header"> 
+            <img src="../frontEnd/logo.png" alt="" srcset="">
+         </div> 
+        <div class="right-header"> 
+            <ul>
+                <li class="searchBox">
+                    <form action="">
+                        <input type="text" placeholder="Rechercher.." name="search">
+                        <button type="submit"><span class="material-symbols-outlined">search</span></button>
+                      </form>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">favorite</span>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                </li>
+                <li>
+                    <span class="material-symbols-outlined">account_circle</span>
+                </li>
+            </ul>
+        </div> 
     </header>
 </body>
 </html>
