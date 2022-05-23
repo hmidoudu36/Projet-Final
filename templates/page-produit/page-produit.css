@@ -1,0 +1,34 @@
+* {
+    margin : 0 0;
+}
+
+.infos {
+    border : 1px solid;
+    max-width : 300px;
+    transform: translateY(40%);
+    margin-left: 150px;
+    text-align: center;
+}
+
+.infos .name,
+.infos .price,
+.infos .marque{
+    margin-top : 50px;
+    font-family: arial;
+}
+
+.infos input{
+    margin-top: 40px;
+}
+
+.infos .name{
+    font-size: 2.3rem;
+}
+
+.infos .marque{
+    font-size: 1.8rem;
+}
+
+.infos .price{
+    font-size: 1.3rem;
+}

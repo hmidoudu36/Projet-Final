@@ -1,0 +1,32 @@
+.product-box{
+    border : 3px solid;
+    border-radius: 20px;
+    height: 250px;
+    width : 200px;
+    font-family: arial;
+}
+
+.product-box .pic { 
+    text-align: center;
+}
+
+.product-box .name,
+.product-box .price{ 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.product-box .name a{
+    text-decoration: none;
+    color : black;
+}
+
+.product-box .name a:hover{
+    color : red;
+}
+
+.product-box .pic img{
+    max-width: 200px;
+    border-top-left-radius: 20px;;
+    border-top-right-radius: 20px;;
+}

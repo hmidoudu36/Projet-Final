@@ -1,0 +1,62 @@
+* {
+    margin : 0;
+}
+
+/* Nav Bar */
+
+header {
+    box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.inner-main-nav {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.inner-main-nav ul {
+    list-style-type: none;
+    text-align: right;
+    margin : 0;
+    padding: 50px 0;
+}
+
+.inner-main-nav ul li {
+    float : none;
+    display : inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.inner-main-nav ul li:nth-child(1),
+.inner-main-nav ul li:nth-child(2)
+{
+    float: left;
+}
+
+
+.inner-main-nav ul a {
+    margin: 0 35px;
+    font-family: arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    color : black;
+    font-weight: bold;
+}
+
+.inner-main-nav ul a:hover {
+    color : red;
+}
+
+.logo {
+    position : absolute;
+    left : 50%;
+    transform : translateX(-100px);
+}
+
+.logo img {
+    height : 115px;
+}
+
+.material-icons {
+    font-size: 30px;
+}
